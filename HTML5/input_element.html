@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>입력요소</title>
+</head>
+<body>
+<form action="result.html" method="get">
+    <input type="text" name="a1"/><br/>
+    <input type="password" name="a2"/><br/>
+    <textarea name="a3" cols="30" rows="5">미리 적은 내용</textarea><br/>
+    <textarea name = "a4" style="width: 200px ; height : 50px"></textarea><br/>
+    <input type="checkbox" name = "a5" value ="1"checked = "checked"/> 체크박스1<br/>
+    <input type="checkbox" name = "a5" value ="2"/> 체크박스2<br/>
+    <input type="checkbox" name = "a5" value ="3"/> 체크박스3<br/>
+    <fieldset style = "width:200px">
+        <input type="checkbox" name ="a6" value = "1"/>A형<br/>
+        <input type="checkbox" name ="a6" value = "2"/>B형<br/>
+    </fieldset>
+    <fieldset style = "width:200px">
+        <legend>라디오</legend><!-- 제목태그 -->
+        <input type="radio" name ="a7" value = "1"/>남자<br/>
+        <input type="radio" name ="a7" value = "2" checked="checked"/>여자<br/>
+    </fieldset>
+    <select name = "a8">
+        <option value="1">항목1</option>
+        <option value="2" selected="selected">항목2</option>
+        <option value="3">항목3</option>
+        <option value="4">항목4</option>
+        <option value="5">항목5</option>
+        <option value="6">항목6</option>
+        <option value="7">항목7</option>
+    </select><br/>
+    <select name = "a9" multiple="multiple">
+        <option value="1">항목1</option>
+        <option value="2" >항목2</option>
+        <option value="3">항목3</option>
+        <option value="4">항목4</option>
+    </select><br/>
+    <input type="file" name="a10" accept="image/jpeg"/>
+    <input type="hidden" name="a11" value="leewang"/>
+    <hr/>
+    <button type="submit">확인</button>
+</form>
+</body>
+</html>
