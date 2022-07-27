@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>web form 2.0 속성</title>
+</head>
+<body>
+    <form action="result.html" method="post">
+        <input type="text" name = "a1" list="list1"/><br>
+        <datalist id="list1">
+            <option value="aaa">항목1</option>
+            <option value="bbb">항목2</option>
+            <option value="ccc">항목3</option>
+            <option value="ddd">항목4</option>
+            <option value="eee">항목5</option>
+            <option value="fff">항목6</option>
+        </datalist>
+        <button type="submit">확인</button>
+    </form>
+    <hr/>
+    <form action="result.html" method="get" id="form1">
+        <input type="text" name = "a2"/><br/>
+        <button type="submit">확인</button>
+        <button type="submit" formaction="result2.html">확인2</button>
+    </form>
+        <input type="text" name = "a3" form="form1"/>
+<hr/>
+
+</body>
+</html>
