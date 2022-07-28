@@ -12,6 +12,9 @@
 <hr>
 
 ## 🍏 강의 목록
+
+<div align=center>
+
 |챕터|강의명|학습여부|
 |:--:|:--:|:--:|
 |1강|HTML의 개요|✅|
@@ -39,17 +42,23 @@
 |23강|핸재위치 측정하기|✅|
 |24강|마무리|✅|
 
+</div>
+
 ## 🍏 참여자와 진행도
 
 <div align = "center">
 <table border = "2px">
 <tr>
 <td align = center>
-<a href ="https://github.com/Leewang31">
   <img src="https://avatars.githubusercontent.com/Leewang31?v=4" width="300px;" alt=""/>
-</a>
 <br>
-<img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/100" width="200px" />
+<img src="https://us-central1-progress-markdown.cloudfunctions.net/progress/100" width="200px" /><br>
+<a href="https://leewang31.tistory.com/">
+<p>🌞티스토리🌞</p>
+</a>
+<a href ="https://github.com/Leewang31">
+<p>🌈깃허브🌈</p>
+</a>
 </td>
 </tr>
 </table>
