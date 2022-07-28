@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>현재 위치 측정</title>
+    <script>
+        var watchId;
+
+        function getCurrentPosition() {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        }
+        function watchCurrentPosition(){
+            watchId = navigator.geolocation.watchPosition(showPosition)
+        }
+        function watchClear(){
+            navigator.geolocation.clearWatch(watchId)
+        }
+        function showPosition(position) {
+            var result = document.getElementById("result");
+            result.innerHTML = "위도 : " + position.coords.latitude + "<br/>"
+                + "경도 : " + position.coords.longitude;
+        }
+    </script>
+</head>
+<body>
+<div id="result">
+</div>
+<button type="button" onclick="getCurrentPosition()">current_position</button>
+<button type="button" onclick="watchCurrentPosition()">watch_current_position</button>
+<button type="button" onclick="watchClear()">watch_clear</button>
+</body>
+</html>
