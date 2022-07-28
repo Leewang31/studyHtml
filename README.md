@@ -2,9 +2,9 @@
 ***
 
 # 🍀 처음 시작하는 Html
->본 게시글은 인프런 강의 "CSS 기본부터 활용까지"를 보고 공부한 내용을 정리하고 있습니다. 
+>본 게시글은 인프런 강의 "윤재성의 처음시작하는 HTML & HTML5 Tutorials"를 보고 공부한 내용을 정리하고 있습니다.
 >코드는 강의에 사용된 코드를 참고하였지만, 공부에 필요한 내용과 방법으로 바꿔서 작성하였습니다.
-<a href = "https://www.inflearn.com/course/css-%EA%B8%B0%EB%B3%B8%EB%B6%80%ED%84%B0-%ED%99%9C%EC%9A%A9%EA%B9%8C%EC%A7%80/dashboard">
+<a href = "https://www.inflearn.com/course/html-2/dashboard">
 <div align = "center">
 <img src="https://user-images.githubusercontent.com/99003659/181305871-51d4fdb6-1e54-48c3-b2ef-3a2fc3d9324c.jpg"/>
 </div>
